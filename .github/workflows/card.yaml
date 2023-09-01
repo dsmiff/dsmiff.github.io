@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: datarootsio/github-stats-card@v1
         with:
-          username: bart6114
+          username: dsmiff
           gh_token_stats: ${{ secrets.GH_PAT }}
           gh_token_commits: ${{ secrets.GITHUB_TOKEN }}
           badge_path: assets/badge.svg
